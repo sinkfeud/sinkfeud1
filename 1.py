@@ -49,8 +49,8 @@ def parse_email(msg):
 def search_email(keyword):
     # 连接到POP3服务器（这里以gmail为例），并输入用户名和密码进行登录（请替换成你自己的账户信息）
     pop_conn = poplib.POP3_SSL('pop.qq.com')
-    pop_conn.user('3056181950@qq.com')
-    pop_conn.pass_('tmavcywhetgydfbc')
+    pop_conn.user('邮箱')
+    pop_conn.pass_('授权码')
     
     try:
         # 获取服务器上所有邮件的编号列表（从1开始）
